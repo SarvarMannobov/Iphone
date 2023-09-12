@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sidebar #2 | AsmrProg</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="container">
+        <header class="sidebar-header">
+          <img src="logo.svg" class="logo-img" />
+          <i class="logo-icon bx bxl-instagram"></i>
+        </header>
+
+        <nav class="navbar">
+          <button>
+            <span>
+              <i class="bx bx-home"></i>
+              <span>Home</span>
+            </span>
+          </button>
+
+          <button>
+            <span>
+              <i class="bx bx-search"></i>
+              <span>Search</span>
+            </span>
+          </button>
+
+          <button>
+            <span>
+              <i class="bx bx-compass"></i>
+              <span>Explore</span>
+            </span>
+          </button>
+
+          <button>
+            <span>
+              <i class="bx bxl-telegram">
+                <span>13</span>
+              </i>
+              <span>Messages</span>
+            </span>
+          </button>
+
+          <button>
+            <span>
+              <i class="bx bx-heart">
+                <em></em>
+              </i>
+              <span>Notifications</span>
+            </span>
+          </button>
+
+          <button>
+            <span>
+              <i class="bx bx-plus-circle"></i>
+              <span>Create</span>
+            </span>
+          </button>
+
+          <button>
+            <span>
+              <img src="logo.png" alt="" />
+              <span>Profile</span>
+            </span>
+          </button>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="content">
+      <!-- main -->
+      <section class="main">
+        <div class="container">
+          <div class="title">
+            <h1>Stories</h1>
+          </div>
+          <div class="images">
+            <img src="../images/user-aiysha.png" alt="" />
+            <img src="../images/user-arthur.png" alt="" />
+            <img src="../images/user-kady.png" alt="" />
+          </div>
+          <hr />
+        </div>
+      </section>
+
+      <!-- reels -->
+      <section class="reels">
+        <div class="container">
+          <h2>Feed</h2>
+          <div class="reel">
+            <div class="imgg">
+              
+            </div>
+            <div class="user">
+              <img src="../images/user-arthur.png" alt="" />
+              
+              <div>
+              <p>Arthur </p>
+              <p class="america">America</p>
+            </div>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"><i class="fas fa-ellipsis-h"></i></button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </div>
+           
+            <div class="photo">
+              <img class="reel-photo" src="../images/Без названия.jpg" alt="" />
+              <div class="reaction">
+                <img src="../images/heart_107804.png" alt="">
+                <img src="../images/chat_5948565.png" alt="">
+                <img src="../images/location_167074.png" alt="">
+                <img src="../images/bookmark_3945551.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
